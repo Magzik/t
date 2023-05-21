@@ -32,8 +32,7 @@ h1 {
   img {
     display: block;
     margin: 10px;
-    width: 600px; 
-    height: 600px;
+    width: 300px; 
   }
   
   a {
@@ -49,8 +48,6 @@ h1 {
     color: black;
   }
 
-@media (max-width: 768px) {
-}
-  
+
 
   
