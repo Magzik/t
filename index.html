@@ -4,140 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista</title>
   <style>
-    h1 {
-      color: red;
-      text-align: center;
-    }
+    /* Resetowanie domyślnych styli */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    h2 {
-      color: green;
-      text-align: center;
-    }
+/* Stylowanie linków */
+a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
 
-    h3 {
-      font-size: 40px;
-      text-align: center;
-    }
+a:hover {
+  color: #ff0000;
+}
 
-    hr {
-      background-color: red;
-      height: 10px;
-      border: none;
-      margin: 20px 0;
-    }
+/* Stylowanie strony */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
 
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+/* Stylowanie tytułu */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-    header {
-      margin-bottom: 20px;
-    }
+/* Stylowanie kontenera linków */
+.links-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    img {
-      display: block;
-      margin: 10px;
-      width: 300px; 
-    }
-  
-    a {
-      text-decoration: none;
-    }
-
-    a:hover {
-      opacity: 0.7;
-    }
-
-    a:visited{
-      color: black;
-    }
   </style>
-  <title>Document</title>
-</head>
-<body>
-  <div>
-    <header>
-      <h1>Lista rzeczy</h1>
-      <h2>Droższe nie znaczy lepsze</h2>
-      <h2>Pierwszy w kolejności nie znaczy lepszy</h2>
-      <h2>Klikniecie w zdjecie przeniesie do strony z produktem</h2>
-    </header>
-    <main>
-      <section></section>
-  <h3><a href="https://www.lego.com/pl-pl">LEGO</a></h3>
-  <hr>
-  <a href="https://www.lego.com/pl-pl/product/emperor-s-throne-room-diorama-75352"><img src="https://www.lego.com/cdn/cs/set/assets/blt92ae31f4d0259d50/75352.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt=" #75352"></a>
-  <a href="https://www.lego.com/pl-pl/product/endor-speeder-chase-diorama-75353"><img src="https://www.lego.com/cdn/cs/set/assets/bltf9cd6c22de423bc8/75353.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75353"></a>
-  <a href="https://www.lego.com/pl-pl/product/dagobah-jedi-training-diorama-75330"><img src="https://www.lego.com/cdn/cs/set/assets/bltb94f536295aefebf/75330.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75330"></a>
-  <a href="https://www.lego.com/pl-pl/product/death-star-trash-compactor-diorama-75339"><img src="https://www.lego.com/cdn/cs/set/assets/bltd7931f1182bc364c/75339.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75339"></a>
-  <a href="https://www.lego.com/pl-pl/product/death-star-trench-run-diorama-75329"><img src="https://www.lego.com/cdn/cs/set/assets/blt054743e11f8ee2d1/75329.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75329"></a>
-  <a href="https://www.lego.com/pl-pl/product/darth-vader-helmet-75304"><img src="https://www.lego.com/cdn/cs/set/assets/bltb44cc1cd596f22a6/75304_alt4.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75304"></a>
-  <a href="https://www.lego.com/pl-pl/product/the-child-75318"><img src="https://www.lego.com/cdn/cs/set/assets/blt4077c030eb5d127d/75318.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75318"></a>
-  <a href="https://www.lego.com/pl-pl/product/the-mandalorian-helmet-75328"><img src="https://www.lego.com/cdn/cs/set/assets/blta6da339d766e9905/75328.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75328"></a>
-  <a href="https://www.lego.com/pl-pl/product/clone-commander-cody-helmet-75350"><img src="https://www.lego.com/cdn/cs/set/assets/blt047686711ed3cb43/75350.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#75350"></a>
-  <a href="https://www.lego.com/pl-pl/product/i-am-groot-76217"><img src="https://www.lego.com/cdn/cs/set/assets/blt786d9a5e1bafd414/76217.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" alt="#76217"></a>
-</section>
-  <hr>
-  <section>
-  <h3>FUNKO POP</h3>
-  <hr>
-  <a href="https://www.empik.com/pop-vinyl-gotg3-pop-4-funko,p1327367258,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-vinyl-guardians-of-the-galaxy-vol-3-nebula-b-iext128231544.jpg" alt="Nebula"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-vinyl-s-m-atsv-funko-pop-figurka-2-funko,p1336248478,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-vinyl-spider-man-across-the-spider-verse-spider-gwen-b-iext128707722.jpg" alt="Gwen"></a>
-  <a href="https://www.empik.com/pop-movies-the-flash-pop-9-funko,p1327367610,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-movies-the-flash-batman-b-iext128231518.jpg" alt="Batman"></a>
-  <a href="https://www.empik.com/thor-milosc-i-grom-gorr-2-funko,p1354595343,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-marvel-thor-love-thunder-gorr-exclusive-b-iext122298307.jpg" alt="Gorr"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-groot-avengers-infinity-war-funko-pop,p1252736967,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-avengers-infinity-war-groot-293-b-iext128236967.jpg" alt="Groot"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-games-fnaf-sb-balloon-freddy-funko,p1320925600,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-games-figurka-kolekcjonerska-five-nights-at-freddy-s-balloon-freddy-908-b-iext128185573.jpg" alt="Ballon Freddy"></a>
-  <a href="https://www.empik.com/pop-heroes-dc-comics-batman-hush-funko,p1307929281,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/16782587956464784-jpg-gallery.big-iext125957502.jpg" alt="Batman (Hush)"></a>
-  <a href="https://www.empik.com/funko-pop-vinyl-wladca-pierscieni-figurka-gandalf-funko,p1236947475,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-movies-figurka-kolekcjonerska-wladca-pierscieni-gandalf-443-b-iext128073898.jpg" alt="Gandalf"></a>
-  <a href="https://www.empik.com/funko-pop-nba-trailblazers-damian-lillard-funko,p1311081302,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-basketball-figurka-kolekcjonerska-trailblazers-damian-lillard-155-b-iext128231600.jpg" alt="Damian Lillard"></a>
-  <a href="https://www.empik.com/funko-pop-tv-figurka-stranger-things-demogorgon-funko,p1235396027,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-stranger-things-figurka-kolekcjonerska-demogorgon-428-b-iext62397729.jpg" alt="Demogorgon"></a>
-  <a href="https://www.empik.com/figurka-spider-man-no-way-home-funko-pop-spider-man-black-gold-suit-funko-pop,p1297534005,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-spider-man-911-b-iext105510711.jpg" alt="Spider-Man"></a>
-  <a href="https://www.empik.com/figurka-kolekcjonerska-funko-pop-the-batman-batman-funko,p1292063131,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-movies-figurka-kolekcjonerska-batman-1189-b-iext103905337.jpg" alt="Batman"></a>
-  <a href="https://www.empik.com/funko-pop-doctor-strange-2-1034-scarlet-witch-se-funko,p1351499084,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-scarlet-witch-edycja-specjalna-1034-b-iext121842707.jpg" alt="Scarlet Witch"></a>
-  <a href="https://www.empik.com/pop-marvel-yots-cap-america-80th-funko,p1281976714,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-avengers-endgame-old-man-steve-915-b-iext128066474.jpg" alt="Old Man Steve"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-marvel-london-pop-8-funko,p1308727282,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/16613279182242064-jpg-gallery.big-iext116735570.jpg" alt="He Who Remains"></a>
-  <a href="https://www.empik.com/funko-pop-marvel-holiday-s2-figurka-capt-america-8-funko,p1237781405,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-cap-snow-532-b-iext128065314.jpg" alt="Cap. Snow"></a>
-  <a href="https://www.empik.com/funko-pop-marvel-figurka-kolekcjonerska-senator-deadpool-funko,p1269546830,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-deadpool-779-b-iext70966361.jpg" alt="Deadpool"></a>
-  <a href="https://www.empik.com/funko-pop-tv-the-flash-figurka-flash-funko,p1235728712,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-television-figurka-kolekcjonerska-the-flash-713-b-iext121818154.jpg" alt="The Flash"></a>
-  <a href="https://www.empik.com/figurka-marvel-pop-capwolf-exclusive-se-funko,p1316846306,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/figurka-marvel-pop-capwolf-exclusive-se-b-iext111780529.jpg" alt="Capwolf"></a>
-  <a href="https://www.empik.com/figurka-what-if-pop-zombie-captain-america-exclusive-funko,p1344418072,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/16667179048320154-jpg-gallery.big-iext120945714.jpg" alt="Zombie Captain America"></a>
-  <a href="https://www.empik.com/funko-pop-vinyl-avengers-figurka-thanos-funko,p1240939464,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/16780854695396235-jpg-gallery.big-iext125660404.jpg" alt="Thanos"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-what-if-s2-zombie-falcon-funko,p1321770715,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-what-if-figurka-kolekcjonerska-zombie-falcon-942-b-iext128228498.jpg" alt="Zombie Falcon"></a>
-  <a href="https://www.empik.com/funko-pop-tv-figurka-stranger-things-s3-will-the-wise-funko,p1235396337,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-stranger-things-figurka-kolekcjonerska-will-the-wise-805-b-iext68839752.jpg" alt="Will The Wise"></a>
-  <a href="https://www.empik.com/funko-pop-heroes-figurka-batman-1989-joker-funko,p1248898330,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-heroes-figurka-kolekcjonerska-batman-the-joker-337-b-iext128311279.jpg" alt="The Joker,"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-marvel-sm-nwh-s3-doc-oc-funko,p1320924601,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-spider-man-no-way-home-doc-ock-1163-b-iext128231526.jpg" alt="Doc Ock"></a>
-  <a href="https://www.empik.com/spider-man-spider-man-no-way-home-funko-pop-1169-funko,p1379903864,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/spider-man-spider-man-no-way-home-funko-pop-1169-b-iext127974397.jpg" alt="Spider-Man"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-marvel-summer-break-pop-1-funko,p1308728768,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-black-panther-namor-1094-b-iext128396743.jpg" alt="Namor"></a>
-  <a href="https://www.empik.com/funko-pop-the-powerpuff-girls-atomowki-mojo-jojo-funko,p1290697633,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-animation-figurka-kolekcjonerska-atomowki-mojo-jojo-1084-b-iext103424894.jpg" alt="Mojo Jojo"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-kolekcjonerska-vision-lata-50-marvel-714-funko,p1260888195,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-wanda-vision-50s-vision-714-b-iext128070529.jpg" alt="50s Vision"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-funko-figurka-pop-big-salad-s1-pop-4-funko,p1308725770,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-thor-gorr-1043-b-iext128071433.jpg" alt="Gorr"></a>
-  <a href="https://www.empik.com/pop-animation-johnny-bravo-johnny-w-mirror-comb-funko-pop,p1286109593,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-animation-figurka-kolekcjonerska-cartoon-network-johnny-bravo-1069-b-iext128068796.jpg" alt="Johnny Bravo"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-what-if-s3-infinity-killmonger-funko,p1321770654,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-what-if-figurka-kolekcjonerska-infinity-killmonger-969-b-iext128228662.jpg" alt="Infinity Killmonger"></a>
-  <a href="https://www.empik.com/funko-pop-vinyl-disney-figurka-dzin-funko,p1240940266,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-disney-figurka-kolekcjonerska-aladdin-genie-with-lamp-476-b-iext127806997.jpg" alt="Genie With Lamp"></a>
-  <a href="https://www.empik.com/funko-pop-wonder-woman-figurka-80th-ww-superman-red-son-funko,p1275941470,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-heroes-figurka-kolekcjonerska-wonder-woman-392-b-iext128227844.jpg" alt="Wonder Woman"></a>
-  <a href="https://www.empik.com/funko-pop-animation-hb-taz-as-scooby-funko,p1367320873,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-animation-figurka-kolekcjonerska-taz-as-scooby-1242-b-iext128067948.jpg" alt="Taz as Scooby"></a>
-  <a href="https://www.empik.com/pop-vinyl-gotg3-pop-1-funko,p1327367142,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-guardians-of-the-galaxy-vol-3-star-lord-b-iext128169350.jpg" alt="Star-Lord"></a>
-  <a href="https://www.empik.com/funko-pop-figurka-marvel-sm-nwh-matt-murdock-w-brick-funko,p1352771550,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-figurka-kolekcjonerska-marvel-spider-man-no-way-home-matt-murdock-w-brick-b-iext128288758.jpg" alt="Matt Murdock"></a>
-  <a href="https://www.empik.com/pop-marvel-deadpool-30th-deadpool-in-cake-funko,p1356236958,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-deadpool-in-cake-776-b-iext129300090.jpg" alt="Deadpool"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-marvel-marvel-j-jonah-jameson-funko,p1308725479,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-j-jonah-jameson-specjalna-edycja-1057-b-iext128066621.jpg" alt="J.Jonah Jameson"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-marvel-gotg-hs-pop-4-funko,p1308727796,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-guardians-of-the-galaxy-star-lord-1104-b-iext128169100.jpg" alt="Star-Lord"></a>
-  <a href="https://www.empik.com/funko-pop-spider-man-no-way-home-doctor-strange-funko,p1282934849,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-spider-man-doctor-strange-912-b-iext85127267.jpg" alt="Doctor Strange"></a>
-  <a href="https://www.empik.com/funko-pop-vinyl-fantasic-four-figurka-mister-fantastic-funko,p1240940637,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-marvel-figurka-kolekcjonerska-fantasic-four-mister-fantastic-557-b-iext128065164.jpg" alt="Mister Fantastic"></a>
-  <a href="https://www.empik.com/funko-pop-star-wars-mandalorian-luke-skywalker-glow-in-th-dark-exclusive-funko,p1311463393,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-star-wars-figurka-kolekcjonerska-luke-skywalker-glow-501-b-iext109610825.jpg" alt="Luke Skywalker"></a>
-  <a href="https://www.empik.com/funko-figurka-pop-vinyl-joshua-tree-big-mac-funko,p1308726973,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-star-wars-figurka-kolekcjonerska-darth-vader-539-b-iext128230784.jpg" alt="Darth Vader"></a>
-  <a href="https://www.empik.com/pop-star-wars-mandalorian-boba-fett-funko,p1281976750,zabawki-p"><img src="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=500,height=500,/c/funko-pop-star-wars-figurka-kolekcjonerska-boba-fett-462-b-iext128189343.jpg" alt="Boba Fett"></a>
-</section>
-</main>
-</div>
-</body>
+  </head>
+  <body>
+    <a href="lego.html">LEGO</a>
+    <a href="funkopop.html">Funko Pop</a>
+    <a href="cd.html">CD</a>
+  </body>
 </html>
